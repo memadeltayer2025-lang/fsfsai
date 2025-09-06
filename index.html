@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خبير النحو</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="https://via.placeholder.com/60" alt="صورة خبير النحو" class="bot-avatar">
+            <h1>خبير النحو</h1>
+            <p>أهلاً بك يا بني! أنا هنا لأساعدك في فهم قواعد النحو من الابتدائي إلى الإعدادي.</p>
+        </div>
+
+        <div id="messages" class="messages">
+            <div class="message bot-message">
+                <img src="https://via.placeholder.com/40" alt="صورة خبير النحو" class="avatar">
+                <p>أهلاً بك يا بني. كيف يمكنني أن أقدم لك المساعدة في قواعد النحو؟</p>
+            </div>
+        </div>
+
+        <div class="quick-actions">
+            <button class="quick-action-btn" data-action="الفاعل">ما هو الفاعل؟</button>
+            <button class="quick-action-btn" data-action="المبتدأ والخبر">شرح المبتدأ والخبر</button>
+            <button class="quick-action-btn" data-action="كان وأخواتها">الفرق بين كان وأخواتها</button>
+            <button class="quick-action-btn" data-action="المفعول به">أعرب المفعول به</button>
+        </div>
+
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="user-input" placeholder="اكتب سؤالك هنا..." autocomplete="off">
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
